@@ -1,0 +1,38 @@
+body{
+	background-color:#FCDC12;
+	background-size: cover;
+	background-attachment: scroll;
+
+}
+h1{
+	color:black;
+	padding-left: 500px;
+	text-shadow: -3px 0 grey, 0 3px grey,
+      3px 0 grey, 0 -3px grey;
+}
+p{
+	color: black;
+	color: black; text-shadow: black 0.3em 0.3em 0.2em;
+}
+img{
+	display: flex;
+	flex-direction: row;
+	height: 200px;
+	width: 350px;
+ 
+	border:solid white;
+}
+a{
+	text-decoration: none;
+	padding-left: 500px;
+	color: black;
+	color: black; text-shadow: black 0.3em 0.3em 0.2em;
+}	
+#row{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+iframe{
+	border:solid white;
+}

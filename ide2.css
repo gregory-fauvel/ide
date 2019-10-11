@@ -1,0 +1,47 @@
+body{
+	background-color: black;
+	background-size: cover;
+	background-attachment: scroll;
+
+}
+h1{
+	color: white;
+	padding-left: 550px;
+	text-shadow: -3px 0 grey, 0 3px grey,
+      3px 0 grey, 0 -3px grey;
+
+}
+img{
+	border-radius: 20%;
+	border:solid red 2px;
+	width: 400px;
+	height: 300px;
+}
+#menu{
+	display: flex;
+	flex-direction:column;
+	padding-left: 60px;
+}
+#corp{
+	display: flex;
+	flex-direction: row;
+
+}
+#texte{
+	padding-left: 20px;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	color: red;
+
+}
+
+a{
+	color: red;
+	text-decoration: none;
+	padding-left: 500px;
+}
+iframe{
+	border:solid red 2px;
+	border-radius: 20%;
+}

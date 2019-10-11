@@ -1,0 +1,69 @@
+body{
+	background-image: url(image/fondide.jpg);
+	background-size:1300px 100px;
+	background-attachment:scroll;
+
+}
+h1{
+	color: white;
+	padding-left: 450px;
+	text-shadow: -3px 0 grey, 0 3px grey,
+      3px 0 grey, 0 -3px grey;
+}
+h3{
+	color: white;
+	padding-left: 150px;
+	text-shadow: -3px 0 grey, 0 3px grey,
+      3px 0 grey, 0 -3px grey;
+
+
+}
+img{
+	border:solid black 2px;
+	height: 200px;
+	width: 350px;
+}
+
+#sublim{
+	border:solid black 2px;
+}
+#bloc1{
+	display: flex;
+	flex-direction: column;
+}
+#row1{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+}
+#row2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+ul{
+	color: white;
+	border:solid black 2px;
+	border-radius: 20%;
+	background-color:#A5260A;
+	padding: 20px;	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+section a img:hover{
+-webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+     -ms-transform: scale(1.5);
+      -o-transform: scale(1.5);
+         transform: scale(1.5);
+}
+li a{
+	text-decoration: none;
+	background-color:black;
+	border-radius: 20%;
+	color:white;
+}
